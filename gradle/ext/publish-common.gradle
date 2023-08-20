@@ -1,0 +1,27 @@
+
+def pom(it) {
+    it.licenses {
+        license {
+            name = 'The Apache License, Version 2.0'
+            url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+        }
+    }
+
+    it.developers {
+        developer {
+            id = 'ehayik'
+            name = 'Eduardo Eljaiek'
+            email = 'eduardo.eljaiek@gmail.com'
+        }
+    }
+
+    it.scm {
+        connection = 'scm:git:git://github.com/ehayik/spring-viewfx.git'
+        developerConnection = 'scm:git:git@github.com:ehayik/spring-viewfx.git'
+        url = 'https://github.com/ehayik/spring-viewfx'
+    }
+}
+
+ext {
+    pom = this.&pom
+}

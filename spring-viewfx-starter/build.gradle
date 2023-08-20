@@ -1,0 +1,10 @@
+
+bootJar {
+    enabled = false
+}
+
+dependencies {
+    api project(':spring-viewfx-autoconfigure')
+    api project(':spring-viewfx-core')
+}
+

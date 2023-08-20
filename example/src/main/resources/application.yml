@@ -1,0 +1,6 @@
+viewfx:
+  title: "Example ViewFX App"
+  index-view-url: /primary
+
+app:
+ message: Hello World!!!

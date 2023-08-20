@@ -1,0 +1,18 @@
+
+
+
+apply plugin: 'org.openjfx.javafxplugin'
+
+javafx {
+    version = '17.0.2'
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
+}
+
+bootJar {
+    enabled = false
+}
+
+dependencies {
+    implementation 'org.springframework:spring-context'
+    implementation 'org.springframework.boot:spring-boot'
+}
